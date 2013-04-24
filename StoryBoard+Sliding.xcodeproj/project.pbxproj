@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9DFB4861728759E007B8326 /* SSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DFB4851728759E007B8326 /* SSSecondViewController.m */; };
 		B9F4345517286104007A93BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F4345417286104007A93BA /* UIKit.framework */; };
 		B9F4345717286104007A93BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F4345617286104007A93BA /* Foundation.framework */; };
 		B9F4345917286104007A93BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F4345817286104007A93BA /* CoreGraphics.framework */; };
@@ -18,9 +19,17 @@
 		B9F4346B17286104007A93BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9F4346A17286104007A93BA /* Default-568h@2x.png */; };
 		B9F4346E17286104007A93BA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F4346C17286104007A93BA /* MainStoryboard.storyboard */; };
 		B9F4347117286104007A93BA /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F4347017286104007A93BA /* SSViewController.m */; };
+		B9F434791728632F007A93BA /* SSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F434781728632F007A93BA /* SSMenuViewController.m */; };
+		B9F4347C17286618007A93BA /* SSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F4347B17286618007A93BA /* SSFirstViewController.m */; };
+		B9F4347F1728666F007A93BA /* SSInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F4347E1728666E007A93BA /* SSInitialViewController.m */; };
+		C9E32BAD788B45168A11B143 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B477C3C08AF54566B4E814DE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F1910B5B9924EE3AE2EF649 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B477C3C08AF54566B4E814DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DFB4841728759E007B8326 /* SSSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSecondViewController.h; sourceTree = "<group>"; };
+		B9DFB4851728759E007B8326 /* SSSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSecondViewController.m; sourceTree = "<group>"; };
 		B9F4345117286104007A93BA /* StoryBoard+Sliding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StoryBoard+Sliding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F4345417286104007A93BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B9F4345617286104007A93BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +46,12 @@
 		B9F4346D17286104007A93BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B9F4346F17286104007A93BA /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
 		B9F4347017286104007A93BA /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		B9F434771728632F007A93BA /* SSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMenuViewController.h; sourceTree = "<group>"; };
+		B9F434781728632F007A93BA /* SSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMenuViewController.m; sourceTree = "<group>"; };
+		B9F4347A17286618007A93BA /* SSFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFirstViewController.h; sourceTree = "<group>"; };
+		B9F4347B17286618007A93BA /* SSFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFirstViewController.m; sourceTree = "<group>"; };
+		B9F4347D1728666E007A93BA /* SSInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSInitialViewController.h; path = ../SSInitialViewController.h; sourceTree = "<group>"; };
+		B9F4347E1728666E007A93BA /* SSInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSInitialViewController.m; path = ../SSInitialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 				B9F4345517286104007A93BA /* UIKit.framework in Frameworks */,
 				B9F4345717286104007A93BA /* Foundation.framework in Frameworks */,
 				B9F4345917286104007A93BA /* CoreGraphics.framework in Frameworks */,
+				C9E32BAD788B45168A11B143 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 				B9F4345A17286104007A93BA /* StoryBoard+Sliding */,
 				B9F4345317286104007A93BA /* Frameworks */,
 				B9F4345217286104007A93BA /* Products */,
+				4F1910B5B9924EE3AE2EF649 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +93,7 @@
 				B9F4345417286104007A93BA /* UIKit.framework */,
 				B9F4345617286104007A93BA /* Foundation.framework */,
 				B9F4345817286104007A93BA /* CoreGraphics.framework */,
+				B477C3C08AF54566B4E814DE /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,12 +101,20 @@
 		B9F4345A17286104007A93BA /* StoryBoard+Sliding */ = {
 			isa = PBXGroup;
 			children = (
+				B9F4347D1728666E007A93BA /* SSInitialViewController.h */,
+				B9F4347E1728666E007A93BA /* SSInitialViewController.m */,
 				B9F4346317286104007A93BA /* SSAppDelegate.h */,
 				B9F4346417286104007A93BA /* SSAppDelegate.m */,
 				B9F4346C17286104007A93BA /* MainStoryboard.storyboard */,
 				B9F4346F17286104007A93BA /* SSViewController.h */,
 				B9F4347017286104007A93BA /* SSViewController.m */,
 				B9F4345B17286104007A93BA /* Supporting Files */,
+				B9F434771728632F007A93BA /* SSMenuViewController.h */,
+				B9F434781728632F007A93BA /* SSMenuViewController.m */,
+				B9F4347A17286618007A93BA /* SSFirstViewController.h */,
+				B9F4347B17286618007A93BA /* SSFirstViewController.m */,
+				B9DFB4841728759E007B8326 /* SSSecondViewController.h */,
+				B9DFB4851728759E007B8326 /* SSSecondViewController.m */,
 			);
 			path = "StoryBoard+Sliding";
 			sourceTree = "<group>";
@@ -114,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9F4347417286104007A93BA /* Build configuration list for PBXNativeTarget "StoryBoard+Sliding" */;
 			buildPhases = (
+				A740B580F85A4F4ABA2411AB /* Check Pods Manifest.lock */,
 				B9F4344D17286104007A93BA /* Sources */,
 				B9F4344E17286104007A93BA /* Frameworks */,
 				B9F4344F17286104007A93BA /* Resources */,
+				418B721C0F514BB4A606181B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +197,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		418B721C0F514BB4A606181B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		A740B580F85A4F4ABA2411AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9F4344D17286104007A93BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -177,6 +236,10 @@
 				B9F4346117286104007A93BA /* main.m in Sources */,
 				B9F4346517286104007A93BA /* SSAppDelegate.m in Sources */,
 				B9F4347117286104007A93BA /* SSViewController.m in Sources */,
+				B9F434791728632F007A93BA /* SSMenuViewController.m in Sources */,
+				B9F4347C17286618007A93BA /* SSFirstViewController.m in Sources */,
+				B9F4347F1728666F007A93BA /* SSInitialViewController.m in Sources */,
+				B9DFB4861728759E007B8326 /* SSSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +323,7 @@
 		};
 		B9F4347517286104007A93BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1910B5B9924EE3AE2EF649 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryBoard+Sliding/StoryBoard+Sliding-Prefix.pch";
@@ -271,6 +335,7 @@
 		};
 		B9F4347617286104007A93BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1910B5B9924EE3AE2EF649 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryBoard+Sliding/StoryBoard+Sliding-Prefix.pch";
@@ -299,6 +364,7 @@
 				B9F4347617286104007A93BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
